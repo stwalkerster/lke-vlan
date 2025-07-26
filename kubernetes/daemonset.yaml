@@ -14,7 +14,7 @@ spec:
     spec:
       nodeName: ""   
       containers:
-      - image: stwalkerster/lke-vlan:main
+      - image: ghcr.io/stwalkerster/lke-vlan:main
         imagePullPolicy: IfNotPresent
         stdin: true
         tty: true
