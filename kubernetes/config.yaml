@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: vlan-join-controller-config
+data:
+  vlan_name: "lke-private-vlan"
+  vlan_cidr: "192.168.0.0/16"
+---
+apiVersion: v1
+kind: Secret
+metadata:
+  name: linode-api
+data:
+  api_token: YOUR_VALUE_GOES_HERE
